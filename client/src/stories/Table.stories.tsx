@@ -14,59 +14,39 @@ const dataSource = [
     _id: "670296a0959aaf6805b80921",
     taskName: "asdasd",
     status: "Completed",
-    createdAt: "2024-10-06T13:54:40.455Z",
-    updatedAt: "2024-10-07T04:28:36.637Z",
-    __v: 0,
-    id: "670296a0959aaf6805b80921",
   },
   {
     _id: "67029751224fbcc761e63e96",
     taskName: "123123444",
     status: "Completed",
-    createdAt: "2024-10-06T13:57:37.282Z",
-    updatedAt: "2024-10-07T04:28:36.637Z",
-    __v: 0,
-    id: "67029751224fbcc761e63e96",
   },
   {
     _id: "6703576047f325e28b2de16c",
     taskName: "asdasdasd",
     status: "Incomplete",
-    createdAt: "2024-10-07T03:37:04.888Z",
-    updatedAt: "2024-10-07T03:37:04.888Z",
-    __v: 0,
-    id: "6703576047f325e28b2de16c",
   },
   {
     _id: "6703576347f325e28b2de170",
     taskName: "12314234",
     status: "Incomplete",
-    createdAt: "2024-10-07T03:37:07.111Z",
-    updatedAt: "2024-10-07T03:37:29.815Z",
-    __v: 0,
-    id: "6703576347f325e28b2de170",
   },
   {
     _id: "6703576547f325e28b2de174",
     taskName: "11111",
     status: "Incomplete",
-    createdAt: "2024-10-07T03:37:09.080Z",
-    updatedAt: "2024-10-07T03:37:09.080Z",
-    __v: 0,
-    id: "6703576547f325e28b2de174",
   },
   {
     _id: "6703637e47f325e28b2de18d",
     taskName: "dofokdkf",
     status: "Incomplete",
-    createdAt: "2024-10-07T04:28:46.647Z",
-    updatedAt: "2024-10-07T04:28:46.647Z",
-    __v: 0,
-    id: "6703637e47f325e28b2de18d",
   },
 ];
 
 const columns = [
+  {
+    label: "Task ID",
+    key: "id",
+  },
   {
     label: "Status",
     key: "Status",
@@ -74,11 +54,6 @@ const columns = [
   {
     label: "Task Name",
     key: "Task Name",
-  },
-
-  {
-    label: "Action",
-    key: "Action",
   },
 ];
 
