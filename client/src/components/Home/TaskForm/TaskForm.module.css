@@ -1,0 +1,23 @@
+.task {
+  width: 100%;
+}
+
+.task__info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .task__info {
+    grid-template-columns: 1fr;
+  }
+}
